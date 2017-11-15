@@ -8,7 +8,7 @@
 
 For more on what you need to make WSL run on Windows 10 go [here](https://msdn.microsoft.com/en-us/commandline/wsl/about)
 
-This guide assumes you are using Ubuntu Xneial, but with the Fall Creators Update or later (build 16215) you can install any distro of Linux you can get in the Windows Store. 
+This guide assumes you are using Ubuntu Xenial, but with the Fall Creators Update or later (build 16215) you can install any distro of Linux you can get in the Windows Store. 
 
 You may need to adapt some commands and scripts to your Linux distro.
 
