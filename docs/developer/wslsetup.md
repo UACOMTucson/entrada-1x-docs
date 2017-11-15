@@ -2,7 +2,7 @@
 
 # Requirements
 
-* Windows 10 Professional with the Anneiversary Update
+* Windows 10 Professional with the Anniversary Update
 * Enable Developer Mode
 * WSL started and configured for the first time
 
