@@ -111,7 +111,7 @@ During the install MariaDB will prompt you to enter a root password. You'll need
 
   ```curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer```
 
-  ## Confiugre Apache
+  ## Configure Apache
 
   This assumes Apache 2.4. There are significant changes from 2.2 to 2.4 so your usual Entrada conf file may not work.
 
@@ -231,6 +231,8 @@ Restart apache
 You should be able to load Entrada in the browser. This is my URL:
 
 ```http://medlearn-local:8088/uacomtucson/entrada-1x-me/www-root/```
+
+If you get PHP errors you probably just need to run composer update.
 
 # Connecting to MariaDB
 
