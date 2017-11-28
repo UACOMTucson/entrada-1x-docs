@@ -49,6 +49,14 @@ During the install MariaDB will prompt you to enter a root password. You'll need
 
  This guide assumes you are using php5.6. You may need to change these commands to install the version of PHP you are using.
 
+ First you have to point to a specific repository that has version 5.6 of PHP.
+ ```sudo add-apt-repository ppa:ondrej/php```
+ ```sudo apt-get update```
+ ```sudo apt-get upgrade```
+
+ Next install necessary PHP packages.
+ ```sudo add-apt install php5.6```
+
  ```sudo apt install php5.6```
 
  ```sudo apt install php5.6-opcache```
@@ -74,6 +82,8 @@ During the install MariaDB will prompt you to enter a root password. You'll need
  ```sudo apt install php5.6-pspell```
 
  ```sudo apt install php5.6-soap```
+
+ ```sudo apt install php5.6-xml```
 
  ```sudo apt install php5.6-xmlrpc```
  
