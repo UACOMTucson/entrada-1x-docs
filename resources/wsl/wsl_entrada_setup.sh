@@ -80,6 +80,7 @@ case "$response" in
         sudo apt install php5.6-xml $YES
         sudo apt install php5.6-xmlrpc $YES
         sudo apt install php5.6-curl $YES
+        sudo apt install php5.6-zip $YES
         ;;
 
 esac
